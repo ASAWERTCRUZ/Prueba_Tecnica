@@ -1,16 +1,19 @@
-# React + Vite
+Prueba Técnica: Sistema de Publicaciones y Comentarios
+Este proyecto es una prueba técnica implementada con React y Vite. El objetivo es crear una interfaz moderna y funcional para visualizar publicaciones y sus comentarios, consumiendo datos de la API pública 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Características Principales
+Página Principal: Muestra una lista paginada de 100 posts.
 
-Currently, two official plugins are available:
+Filtrado y Búsqueda: Permite buscar posts por título/cuerpo y filtrarlos por autor.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Detalle de Post: Muestra el contenido completo de una publicación junto con su lista de comentarios asociados.
 
-## React Compiler
+Instalacino y ejecucion.
+clonar este proyecto en el entorno local
+1 instalar dependencias,
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+npm install
 
-## Expanding the ESLint configuration
+2 ejecutar la aplicaion
+npm run dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
