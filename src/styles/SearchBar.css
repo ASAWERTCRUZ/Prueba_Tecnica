@@ -1,0 +1,14 @@
+.search-bar {
+    width: 300px;
+}
+
+.search-bar::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    .search-bar {
+        width: 100%;
+    }
+}
