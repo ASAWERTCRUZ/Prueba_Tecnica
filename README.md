@@ -1,19 +1,24 @@
-Prueba Técnica: Sistema de Publicaciones y Comentarios
-Este proyecto es una prueba técnica implementada con React y Vite. El objetivo es crear una interfaz moderna y funcional para visualizar publicaciones y sus comentarios, consumiendo datos de la API pública 
+# Prueba Técnica: Sistema de Publicaciones y Comentarios
 
-Características Principales
-Página Principal: Muestra una lista paginada de 100 posts.
+Este proyecto es una prueba técnica desarrollada con **React** y **Vite**. Su objetivo es ofrecer una interfaz moderna y funcional para visualizar publicaciones y sus comentarios, consumiendo datos de una API pública.
 
-Filtrado y Búsqueda: Permite buscar posts por título/cuerpo y filtrarlos por autor.
+## Características Principales
 
-Detalle de Post: Muestra el contenido completo de una publicación junto con su lista de comentarios asociados.
+- **Página Principal:** Lista paginada de 100 posts.  
+- **Filtrado y Búsqueda:** Permite buscar posts por título o cuerpo y filtrarlos por autor.  
+- **Detalle de Post:** Muestra el contenido completo de la publicación junto con sus comentarios asociados.  
 
-Instalacino y ejecucion.
-clonar este proyecto en el entorno local
-1 instalar dependencias,
+## Instalación y Ejecución
+
+1. Clonar el proyecto en el entorno local.  
+2. Instalar dependencias:
+
 
 npm install
 
-2 ejecutar la aplicaion
+
+## Ejecutar la aplicación
+
+
 npm run dev
 
